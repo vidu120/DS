@@ -23,6 +23,7 @@ func ifPossible(slice []int) (bool, int) {
 	return false, sum
 }
 
+//this is a recurence solution so it is not that efficient, it can be solved more quickly through dynamic programming
 func findSubsets(firstSubset, secondSubset, thirdSubset int, n int, slice []int) bool {
 
 	if firstSubset == 0 && secondSubset == 0 && thirdSubset == 0 {
@@ -63,5 +64,4 @@ func main() {
 	} else {
 		fmt.Println(0)
 	}
-
 }
