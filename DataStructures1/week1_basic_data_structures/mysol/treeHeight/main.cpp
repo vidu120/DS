@@ -92,10 +92,9 @@ int main()
     //our tree nodes
     Node tree[100000];
     Node *inputptr = tree;
-
     input(inputptr, noOfNodes);
+    
+    //printing out the answer
     cout << calculateDepth(inputptr , noOfNodes) << endl;
-
-
     return 0;
 }
