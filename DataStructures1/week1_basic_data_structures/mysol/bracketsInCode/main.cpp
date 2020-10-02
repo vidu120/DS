@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stack>
+##include <deque>
 using namespace std;
 
 //bracket class
