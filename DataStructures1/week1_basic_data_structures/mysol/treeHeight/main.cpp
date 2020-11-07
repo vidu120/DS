@@ -90,8 +90,7 @@ int main()
     cin >> noOfNodes;
 
     //our tree nodes
-    Node tree[100000];
-    Node *inputptr = tree;
+    Node *inputptr  = (Node *)malloc(noOfNodes * sizeof(Node));
     input(inputptr, noOfNodes);
     
     //printing out the answer

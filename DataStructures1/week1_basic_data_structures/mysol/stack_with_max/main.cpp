@@ -32,8 +32,6 @@ void maxImplementedStack::Push(int data){
     }
 }
 
-
-
 int main(){
     int queries;
     cin >> queries;
